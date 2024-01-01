@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Counter</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="p-5 grid justify-center text-center bg-sky-200" >
+    <h1 class="mt-6 font-bold text-2xl">Word Counter Application</h1>
+    <textarea onkeyup="KeyHasBeenPressed()" class="border border-black rounded-2xl mt-6 mb-6 p-4 outline-none text-sky-600 text-xl" name="" id="" cols="30" rows="10"></textarea>
+    <p>Total Words:  <span class="wordCount">0</span></p>
+    <p>Total Characters:  <span class="charCount">0</span></p>
+    <p>Total Characters Allowed: 200 || Total Characters left: <span class="charLimitSpan">200</span></p>
+    <button class="mt-2 border border-black ml-40 w-24 clearButton hover:bg-violet-100 ">Clear</button>
+    <script src="./index.js"></script>
+</body>
+</html>
